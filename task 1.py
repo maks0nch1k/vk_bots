@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 def main():
-    login, password = "+79819718551", "Maksx006"
+    login, password = LOGIN, PASSWORD
     vk_sess = vk_api.VkApi(login, password)
     try:
         vk_sess.auth(token_only=True)

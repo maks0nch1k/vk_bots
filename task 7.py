@@ -5,7 +5,7 @@ TOKEN = "vk1.a.e3UiV626Dz0XlG06ET2URvC0uEb0I2362oJoAMe1Z1L-nm3ZSlOIMfaKRIQxPF9eB
 
 
 def main():
-    login, password = "+79819718551", "Maksx006"
+    login, password = LOGIN, PASSWORD
     vk_sess = vk_api.VkApi(login, password)
 
     try:
